@@ -29,9 +29,13 @@ OBS. Uppgifterna kommer med all sannolikhet gå in i varandra över veckogränse
 
 # Vecka 2
 - GitHub.
-- GitHub Pages.
-- GitHub Actions.
+- GitHub Pages. (Publicera min sida)
+- GitHub Actions. (Kör testar i pipeline. Följ en guide.)
 - Notering: GitHub Actions ska vara till för att köra de tester som skapas upp i repot.
+- TODO:
+   1. Lös Jest test som failar med import.
+   2. Skapa ett enkelt Cypress test som testar t.ex ett knapptryck.
+   3. Läs på mer om hur Vue3 fungerar.
 
 # Vecka 3
 - Integration och användning av API.
