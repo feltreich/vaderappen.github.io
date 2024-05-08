@@ -39,6 +39,12 @@ OBS. Uppgifterna kommer med all sannolikhet gå in i varandra över veckogränse
 
 # Vecka 3
 - Integration och användning av API.
+- TODO:
+  1. Fixa så Jest tester funkar https://v1.test-utils.vuejs.org/guides/using-with-typescript.html <https://v1.test-utils.vuejs.org/guides/using-with-typescript.html>
+  2. Skapa ett Cypress test som testar ett knapptryck.
+  3. Kolla på API och https://medium.com/@armando_amador/how-to-make-http-requests-using-fetch-api-and-promises-b0ca7370a444 <https://medium.com/%40armando_amador/how-to-make-http-requests-using-fetch-api-and-promises-b0ca7370a444>
+  4. Försök bygga något enkelt Promise för att hämta ut datan.
+  5. Se om du kan få Jest testerna att köra i Github Actions.
 
 # Vecka 4
 - Skapa UI för att se dagens väder.
