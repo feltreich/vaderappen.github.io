@@ -1,17 +1,19 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <WeatherView msg="Welcome to Your Vue.js App" />
+  <div id="app">
+    <WeatherViewList />
+  </div>
 </template>
 
-<script>
-import WeatherView from "../src/components/weatherview/WeatherView.vue";
+<script lang="ts">
+import { defineComponent } from "vue";
+import WeatherViewList from "../src/components/weatherview/WeatherViewList.vue";
 
-export default {
+export default defineComponent({
   name: "App",
   components: {
-    WeatherView,
+    WeatherViewList,
   },
-};
+});
 </script>
 
 <style>
