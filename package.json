@@ -75,9 +75,11 @@
       ]
     },
     "moduleFileExtensions": [
-      "js",
-      "ts",
       "json",
+      "js",
+      "jsx",
+      "ts",
+      "tsx",
       "vue"
     ],
     "transform": {

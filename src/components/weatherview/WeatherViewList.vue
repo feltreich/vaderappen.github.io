@@ -23,8 +23,9 @@ export default defineComponent({
   setup() {
     let weatherDataList: any = [];
     const fetchWeatherData = async () => {
-      const data = getWeatherData();
+      const data = await getWeatherData();
       weatherDataList.value = [data];
+      console.log(data);
     };
     onMounted(() => {
       fetchWeatherData();
